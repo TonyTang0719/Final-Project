@@ -8,7 +8,7 @@ st.title("Final_Project")
 st.markdown("JIACHEN TANG ID:83049912")
 st.markdown("Here (https://www.kaggle.com/tmdb/tmdb-movie-metadata) is the link to the dataset")
 
-df = pd.read_csv("TMDBMovies.csv", na_values = " ")
+df = pd.read_csv("TMDBmovies.csv", na_values = " ")
 df
 st.write("Based on the dataset, My project is focusing on two questions:")
 st.write("1. As time goes by, what is the variation trend for the runtime of the movies?")
