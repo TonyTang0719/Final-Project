@@ -138,6 +138,8 @@ st.write("For question 1, we conclude the runtime of movies before 1990s did not
 st.write("For question 2, we conclude the top 3 common genres in movies are 'drama','comedy' and 'thriller', but 'Adventure','Science Friction' and 'Animation' movies have the highest popularity")
 
 #Check to see if the data is overfitting or not
+from pandas.api.types import is_numeric_dtype
+from sklearn.preprocessing import StandardScaler
 import tensorflow as tf
 from tensorflow import keras
 df = pd.read_csv("TMDBmovies.csv", na_values = " ")
