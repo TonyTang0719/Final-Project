@@ -102,7 +102,7 @@ st.write("below is the total number of movies in each genre")
 st.write(num_of_genres)
 
 #And we make the pie chart of it.
-from matplotlib import pyplot as plt
+import matplotlib.pyplot as plt
 lables = 'Action', 'Adventure', 'Fantasy', 'Science Fiction', 'Crime', 'Drama', 'Thriller', 'Animation', 'Family', 'Western', 'Comedy', 'Romance', 'Horror', 'Mystery', 'History', 'War', 'Music', 'Documentary', 'Foreign'
 data=[918, 661, 342,  431,  521,  1441,  935, 188,  365,  57, 1110,  574,  332,  265,  145,  120,  111,  38,  5]
 size=[data[i]/8559 for i in range(19)]
